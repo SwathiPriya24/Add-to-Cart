@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 220, 246);
+}
+ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.addToCartCard {
+    height: fit-content;
+    background-color: rgb(194, 194, 241);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 20px 10px;
+   
+    
+}
+
+.addToCartCardli {
+    font-size: 20px;
+}
+
+.total {
+    width: 90%;
+    text-align: right;
+    padding: 20px 0px 0px;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(84, 84, 160);
+}
+
+h2 {
+    text-align: center;
+}
+
+.proLst li {
+    border: 1px solid rgb(84, 84, 160);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.addToCart {
+    background-color: rgb(84, 84, 160);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.removefrmCart {
+    background-color: rgb(244, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Prodetail {
+    width: 60%;
+    text-align: start;
+}
+
+.title {
+    width: 50%;
+    padding: 40px;
+    background-color: rgb(84, 84, 160);
+    margin: 20px auto;
+    border-radius: 20px;
+    color: white;
+}

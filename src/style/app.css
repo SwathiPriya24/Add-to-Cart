@@ -1,0 +1,13 @@
+header {
+    height: 80px;
+    background-color: #eef;
+  }
+  
+  main {
+    padding: 50px 0px;
+  }
+  
+  div.grid1200 {
+    width: 1200px;
+    margin: 0px auto;
+  }

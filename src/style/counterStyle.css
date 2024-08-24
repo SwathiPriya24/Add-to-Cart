@@ -1,0 +1,32 @@
+.counter {
+  float: right;
+  margin-bottom: 65px;
+  margin-right: 50px;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 6px;
+  background-color: #222;
+  font-weight: bold;
+}
+
+
+.badge-warning {
+  background-color: #db0;
+  color: black;
+}
+
+.btn {
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  border: none;
+  margin-left: 3px;
+}
+
+.btn-secondary {
+  background-color: #666;
+}
