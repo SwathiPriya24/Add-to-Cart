@@ -4,7 +4,7 @@ function ProductListing() {
     const initialProducts = [
         { id: 1, name: "Straw Berry Milk Shake", price: 80 },
         { id: 2, name: "Black Berry Milk Shake", price: 100 },
-        { id: 3, name: "Pomegranate Milk Shake", price: 200 },
+        { id: 3, name: "Mango Milk Shake", price: 200 },
         { id: 4, name: "Vanilla Milk Shake", price: 150 },
         { id: 5, name: "Chocolate Milk Shake", price: 180 },
     ];
