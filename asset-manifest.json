@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SwathiPriya24/Add-to-Cart.git/static/css/main.c2e0a91e.css",
+    "main.js": "/SwathiPriya24/Add-to-Cart.git/static/js/main.8cfeaf18.js",
+    "index.html": "/SwathiPriya24/Add-to-Cart.git/index.html",
+    "main.c2e0a91e.css.map": "/SwathiPriya24/Add-to-Cart.git/static/css/main.c2e0a91e.css.map",
+    "main.8cfeaf18.js.map": "/SwathiPriya24/Add-to-Cart.git/static/js/main.8cfeaf18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2e0a91e.css",
+    "static/js/main.8cfeaf18.js"
+  ]
+}
