@@ -51,7 +51,7 @@ function ProductListing() {
             <ul>
                 {initialProducts.map((product) => (
                     <li key={product.id}>
-                        <strong>{product.name}</strong> - ${product.price}
+                        <strong>{product.name}</strong> - RS{product.price}
                         <button onClick={() => addToCart(product)}>Add to Cart</button>
                         {cart.some((p) => p.id === product.id) && (
                             <button onClick={() => removeFromCart(product)}>Remove from Cart</button>
@@ -64,11 +64,11 @@ function ProductListing() {
             <ul>
                 {cart.map((product) => (
                     <li key={product.id}>
-                        <strong>{product.name}</strong> - ${product.price} x {product.quantity} = ${product.totalPrice}
+                        <strong>{product.name}</strong> - Rs{product.price} x {product.quantity} = Rs{product.totalPrice}
                     </li>
                 ))}
             </ul>
-            <p>Total Price: ${calculateTotalPrice()}</p>
+            <p>Total Price: Rs{calculateTotalPrice()}</p>
         </div>
     );
 }
